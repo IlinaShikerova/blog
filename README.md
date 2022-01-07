@@ -1,0 +1,1 @@
+![Alt text](https://github.com/rado88x/BeerTag/blob/master/picBeer.png)
