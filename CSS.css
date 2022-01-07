@@ -1,0 +1,126 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  font-family: "Gabriola";
+  font-size: 27px;
+  text-align: center;
+  margin: 100px;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+h1 {
+  font-family: Gabriola;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  color: #242424a4;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+  letter-spacing: -3px;
+  word-spacing: 1cm;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+ul {
+  background-color: #dddddd;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+.active {
+  background-color: #04aa6d;
+  height: 50px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+li {
+  border-right: 1px solid #bbb;
+  float: left;
+  display: inline;
+}
+
+li:last-child {
+  border-right: none;
+}
+.photo {
+  display: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blockul {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cssbutton {
+  width: 90px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  background: #e0e0e0;
+  color: #363636;
+  border: 1px solid #a8a8a8;
+  font: 1em/66px Georgia;
+  text-decoration: none;
+  outline: none;
+  text-shadow: -1px -1px #fff, 1px 1px #333;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.cssbutton:hover {
+  width: 215px;
+  padding-left: 7px;
+  color: #5e5e5e;
+  text-shadow: 1px 1px #fff, -1px -1px #444;
+  line-height: 102px;
+}
+
+.cssbutton:active {
+  background: #a9c6e7;
+  width: 93px;
+  padding-left: 6px;
+  color: #fff;
+  line-height: 66px;
+  text-shadow: 1px 1px 3px #000;
+}
+#cssbutton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#info {
+  background: rgb(230, 230, 230);
+  width: 90%;
+  height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 15px 0px 10px 6px;
+  border: 2px dashed rgb(161, 161, 161);
+  padding: 6px;
+  margin-left: auto;
+  margin-right: auto;
+}
