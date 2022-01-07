@@ -1,1 +1,1 @@
-![Alt text](https://github.com/rado88x/BeerTag/blob/master/picBeer.png)
+![Alt text](https://github.com/IlinaShikerova/blog/blob/main/blog.html)
