@@ -28,18 +28,19 @@ a {
   background-color: #dddddd;
 }
 ul {
-  background-color: #dddddd;
+  background-color: #dddddd00;
   list-style-type: none;
-  margin: 0;
+  margin: 60px;
   padding: 0;
   overflow: hidden;
   top: 0;
-  width: 100%;
+  width: 90%;
 }
 
 .active {
-  background-color: #04aa6d;
+  background-color: #5e5e5e6c;
   height: 50px;
+  border-radius: 8px;
 }
 
 li a {
@@ -54,7 +55,7 @@ li a:hover {
   background-color: #111;
 }
 li {
-  border-right: 1px solid #bbb;
+  border-right: 1px solid rgba(187, 187, 187, 0);
   float: left;
   display: inline;
 }
@@ -66,6 +67,7 @@ li:last-child {
   display: auto;
   margin-left: auto;
   margin-right: auto;
+  width: 1200px;
 }
 
 .blockul {
@@ -75,8 +77,8 @@ li:last-child {
 }
 
 .cssbutton {
-  width: 90px;
-  height: 50px;
+  width: 200px;
+  height: 40px;
   display: block;
   text-align: center;
   background: #e0e0e0;
@@ -96,7 +98,7 @@ li:last-child {
   padding-left: 7px;
   color: #5e5e5e;
   text-shadow: 1px 1px #fff, -1px -1px #444;
-  line-height: 102px;
+  line-height: 11px;
 }
 
 .cssbutton:active {
@@ -123,4 +125,43 @@ li:last-child {
   padding: 6px;
   margin-left: auto;
   margin-right: auto;
+}
+
+form {
+  border: 4px solid #f1f1f19f;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  padding: auto;
+  background-color: #f1f1f100;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(168, 168, 168);
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-top: 16px;
+}
+
+input[type="submit"] {
+  background-color: #4273dde1;
+  color: rgba(255, 255, 255, 0.815);
+  border: none;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
 }

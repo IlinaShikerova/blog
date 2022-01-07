@@ -10,18 +10,36 @@
     <style></style>
     <h1>Ilina's blog</h1>
 
-    <h3 id="contents">Contents</h3>
+    <h3 id="contents">Travel to different destination</h3>
     <ul>
-        <li><a id="cssbutton" class="cssbutton" href="canada.html">Canada</a></li>
-        <li><a id="cssbutton" class="cssbutton" href="mexico.html">Mexico</a></li>
-        <li><a id="cssbutton" class="cssbutton" href="US.html">United States</a></li>
-        <li style="float:right"><a class="active" href="forme.html">For me</a></li>
-      </ul>
+      <li><a id="cssbutton" class="cssbutton" href="canada.html">Canada</a></li>
+      <li><a id="cssbutton" class="cssbutton" href="mexico.html">Mexico</a></li>
+      <li>
+        <a id="cssbutton" class="cssbutton" href="US.html">United States</a>
+      </li>
+      <li style="float: right">
+        <a class="active" href="forme.html">For me</a>
+      </li>
+    </ul>
 
-    <img
-      class="photo"
-      src="palm.jpg"
-      width="750"
-    />
+    <img class="photo" src="palm.jpg" width="750" />
+    <form action="">
+      <div class="container">
+        <h3>Subscribe to our Newsletter</h3>
+      </div>
+
+      <div class="container" style="background-color: rgba(255, 255, 255, 0)">
+        <input type="text" placeholder="Name" name="name" required />
+        <input type="text" placeholder="Email address" name="mail" required />
+        <label>
+          <input type="checkbox" checked="checked" name="subscribe" /> Daily
+          Newsletter
+        </label>
+      </div>
+
+      <div class="container">
+        <input type="submit" value="Subscribe" />
+      </div>
+    </form>
   </body>
 </html>
